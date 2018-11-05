@@ -13,7 +13,9 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 
 public class test {
-    public java.util.List<Movie> ml = new ArrayList<Movie>();
+    public static java.util.List ml = new ArrayList<String>();
+    public static String res;
+    public static Movie m;
 
     public static void main(String[] args) {
         JFrame home = new JFrame();
@@ -54,15 +56,26 @@ public class test {
         //JScrollPane lList = new JScrollPane();
         //test to get scrollbar working
         //set up list
-        String[] listString = {"test 1", "test 2", "test 3"};
+        //String[] listString = {"test 1", "test 2", "test 3"};
         //put list into a jlist
-        JList listItems = new JList(listString);
-        //put the new list into the pane
-        JScrollPane lList = new JScrollPane(listItems);
-        lList.setBounds(20,20,180,100);
-        lList.setBackground(Color.BLACK);
-        lList.setVisible(false);
-        home.add(lList);
+
+
+        //------Found Window------
+        JButton fAdd = new JButton("Add");
+        fAdd.setBounds(25,75,100,40);
+        fAdd.setVisible(false);
+
+        JButton fHome = new JButton("Home");
+        fHome.setBounds(150,75,100,40);
+        fHome.setVisible(false);
+
+        JButton fSearch = new JButton("Search again");
+        fSearch.setBounds(275,75,100,40);
+        fSearch.setVisible(false);
+
+        home.add(fAdd);
+        home.add(fHome);
+        home.add(fSearch);
 
 
         hView.addActionListener(new ActionListener() {
@@ -81,7 +94,14 @@ public class test {
             public void actionPerformed(ActionEvent e) {
                 hView.setVisible(false);
                 hList.setVisible(false);
-                lList.setVisible(true);
+                JList listItems = new JList(ml.toArray());
+                //put the new list into the pane
+                JScrollPane lList = new JScrollPane(listItems);
+                lList.setBounds(20,20,180,100);
+                lList.setBackground(Color.BLACK);
+                //lList.setVisible(false);
+                home.add(lList);
+                //lList.setVisible(true);
             }
         });
 
@@ -96,11 +116,42 @@ public class test {
             }
         });
 
+        fHome.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fHome.setVisible(false);
+                fAdd.setVisible(false);
+                fSearch.setVisible(false);
+                hView.setVisible(true);
+                hList.setVisible(true);
+            }
+        });
+
+        fSearch.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fHome.setVisible(false);
+                fAdd.setVisible(false);
+                fSearch.setVisible(false);
+                vHome.setVisible(true);
+                vSearch.setVisible(true);
+                vIn.setVisible(true);
+            }
+        });
+
+        fAdd.addActionListener((new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //if(m!=null)
+                ml.add(m.Title);
+            }
+        }));
+
         vSearch.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String title = vIn.getText();
-                String res="";
+                res="";
                 try{
                     URL url = new URL("http://www.omdbapi.com/?apikey=fc545d36&t="+title);
                     URLConnection con = url.openConnection();
@@ -115,11 +166,16 @@ public class test {
                     f.printStackTrace();
                 }
                 if(!res.equals("")){
-                    Movie m = parseMovie(res);
-                    java.util.List<Integer> l = new ArrayList<Integer>();
-
-                    String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.title, m.year);
+                    m= parseMovie(res);
+                    String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.Title, m.year);
                     JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
+                    System.out.println(m.Title);
+                    fAdd.setVisible(true);
+                    fHome.setVisible(true);
+                    fSearch.setVisible(true);
+                    vIn.setVisible(false);
+                    vHome.setVisible(false);
+                    vSearch.setVisible(false);
                 }
                 else{
                     JOptionPane.showMessageDialog(null, "Movie Not Found", "Movie Finder", JOptionPane.ERROR_MESSAGE);

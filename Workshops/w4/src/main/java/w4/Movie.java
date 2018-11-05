@@ -5,7 +5,7 @@ package w4;
  * @author Jack Stevenson
  */
 public class Movie {
-    public String title;
+    public String Title;
     public String year;
 
 }

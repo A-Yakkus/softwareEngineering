@@ -39,7 +39,7 @@ public class Launch {
         }
         if(!res.equals("")){
             Movie m = parseMovie(res);
-            String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.title, m.year);
+            String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.Title, m.year);
             JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
         }
         else{
