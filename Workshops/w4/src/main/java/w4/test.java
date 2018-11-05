@@ -116,10 +116,9 @@ public class test {
                 }
                 if(!res.equals("")){
                     Movie m = parseMovie(res);
-                    java.util.List<Integer> l = new ArrayList<Integer>();
 
-                    String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.title, m.year);
-                    JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
+                    //String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.title, m.year);
+                    //JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
                 }
                 else{
                     JOptionPane.showMessageDialog(null, "Movie Not Found", "Movie Finder", JOptionPane.ERROR_MESSAGE);
