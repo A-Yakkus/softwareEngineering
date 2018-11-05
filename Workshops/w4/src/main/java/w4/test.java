@@ -166,8 +166,9 @@ public class test {
                     f.printStackTrace();
                 }
                 if(!res.equals("")){
+
                     m= parseMovie(res);
-                    String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.Title, m.year);
+                    String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.Title, m.Year);
                     JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println(m.Title);
                     fAdd.setVisible(true);
