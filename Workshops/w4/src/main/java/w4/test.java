@@ -130,7 +130,6 @@ public class test {
 
     private static Movie parseMovie(String data){
         Gson g = new GsonBuilder().setPrettyPrinting().create();
-        System.out.println(g);
         return g.fromJson(data, Movie.class);
     }
 }
