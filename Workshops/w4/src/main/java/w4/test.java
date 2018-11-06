@@ -1,6 +1,6 @@
 package w4;
 import javax.swing.*;
-import java.awt.*;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import com.google.gson.Gson;
@@ -11,11 +11,13 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
+import java.util.List;
 
 public class test {
-    public static java.util.List ml = new ArrayList<String>();
+    public static List ml = new ArrayList<String>();
     public static String res;
     public static Movie m;
+    public static List movies = new ArrayList<Movie>();
 
     public static void main(String[] args) {
         JFrame home = new JFrame();
@@ -144,6 +146,7 @@ public class test {
             public void actionPerformed(ActionEvent e) {
                 //if(m!=null)
                 ml.add(m.Title);
+                movies.add(m);
             }
         }));
 

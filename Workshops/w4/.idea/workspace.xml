@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="w4_main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a604d61-45bf-486a-a9af-f225d78398e0" name="Default Changelist" comment="implementation">
+    <list default="true" id="8afc9f8f-15ba-4e13-8c9f-5f4521b759ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/w4_main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-    <list default="true" id="6a604d61-45bf-486a-a9af-f225d78398e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/w4/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/w4/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/w4/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,43 +39,10 @@
     </projectState>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1815596688">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gradle" value="1" />
-          <entry key="java" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1151" />
-          <entry key="txt" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1151" />
-          <entry key="PLAIN_TEXT" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
     <session id="1996596069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -84,61 +58,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="509" />
+          <entry key="java" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="509" />
+          <entry key="JAVA" value="165" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="169" column="88" selection-start-line="169" selection-start-column="88" selection-end-line="169" selection-end-column="88" />
+            <state relative-caret-position="136">
+              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
-              <folding>
-                <element signature="e#423#445#0" expanded="true" />
-                <element signature="e#436#443#0" expanded="true" />
-                <element signature="e#3236#3286#0" expanded="true" />
-                <element signature="e#3236#3286#0" expanded="true" />
-                <element signature="e#3801#3816#0" expanded="true" />
-                <element signature="e#3801#3816#0" expanded="true" />
-                <element signature="e#3801#3816#0" expanded="true" />
-                <element signature="e#4424#4480#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="73" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="73" />
-              <folding>
-                <element signature="e#772#822#0" expanded="true" />
-                <element signature="e#772#822#0" expanded="true" />
-                <element signature="e#1241#1256#0" expanded="true" />
-                <element signature="e#1241#1256#0" expanded="true" />
-                <element signature="e#1241#1256#0" expanded="true" />
+                <element signature="e#423#446#0" expanded="true" />
+                <element signature="e#547#562#0" expanded="true" />
+                <element signature="e#2793#2816#0" expanded="true" />
+                <element signature="e#2793#2816#0" expanded="true" />
+                <element signature="e#2834#2857#0" expanded="true" />
+                <element signature="e#2834#2857#0" expanded="true" />
+                <element signature="e#2802#2844#1" expanded="true" />
+                <element signature="e#3095#3127#0" expanded="true" />
+                <element signature="e#3095#3127#0" expanded="true" />
+                <element signature="e#4590#4605#0" expanded="true" />
+                <element signature="e#4590#4605#0" expanded="true" />
+                <element signature="e#4623#4636#0" expanded="true" />
+                <element signature="e#4623#4636#0" expanded="true" />
+                <element signature="e#4931#4981#0" expanded="true" />
+                <element signature="e#4931#4981#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,10 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            <state relative-caret-position="373">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -457,36 +408,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/w4/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/w4/test.java" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/w4/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/w4/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/w4/Launch.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="752" />
+    <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -494,6 +445,24 @@
             <path>
               <item name="w4" type="b2602c69:ProjectViewProjectNode" />
               <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="w4" type="b2602c69:ProjectViewProjectNode" />
@@ -525,12 +494,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541423274090" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541514000431" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -545,56 +516,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application">
+    <configuration name="Test" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="w4.test" />
       <module name="w4_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="asdf" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="asdf" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -605,133 +529,183 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a604d61-45bf-486a-a9af-f225d78398e0" name="Default Changelist" comment="" />
-      <created>1541418808738</created>
+      <changelist id="8afc9f8f-15ba-4e13-8c9f-5f4521b759ed" name="Default Changelist" comment="" />
+      <created>1541512224144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541418808738</updated>
+      <updated>1541512224144</updated>
     </task>
-    <task id="LOCAL-00001" summary="implementation">
-      <created>1541419186435</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541419186435</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32968238" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.3264642" />
-      <window_info anchor="bottom" id="Messages" weight="0.32968238" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18729463" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32968238" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3264642" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="73" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="73" />
-          <folding>
-            <element signature="e#772#822#0" expanded="true" />
-            <element signature="e#772#822#0" expanded="true" />
-            <element signature="e#1241#1256#0" expanded="true" />
-            <element signature="e#1241#1256#0" expanded="true" />
-            <element signature="e#1241#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        <state relative-caret-position="373">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="169" column="88" selection-start-line="169" selection-start-column="88" selection-end-line="169" selection-end-column="88" />
+        <state relative-caret-position="136">
+          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#423#446#0" expanded="true" />
+            <element signature="e#547#562#0" expanded="true" />
+            <element signature="e#2793#2816#0" expanded="true" />
+            <element signature="e#2793#2816#0" expanded="true" />
+            <element signature="e#2834#2857#0" expanded="true" />
+            <element signature="e#2834#2857#0" expanded="true" />
+            <element signature="e#2802#2844#1" expanded="true" />
+            <element signature="e#3095#3127#0" expanded="true" />
+            <element signature="e#3095#3127#0" expanded="true" />
+            <element signature="e#4590#4605#0" expanded="true" />
+            <element signature="e#4590#4605#0" expanded="true" />
+            <element signature="e#4623#4636#0" expanded="true" />
+            <element signature="e#4623#4636#0" expanded="true" />
+            <element signature="e#4931#4981#0" expanded="true" />
+            <element signature="e#4931#4981#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        <state relative-caret-position="206">
-          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
-          <folding>
-            <element signature="e#423#445#0" expanded="true" />
-            <element signature="e#436#443#0" expanded="true" />
-            <element signature="e#3236#3286#0" expanded="true" />
-            <element signature="e#3236#3286#0" expanded="true" />
-            <element signature="e#3801#3816#0" expanded="true" />
-            <element signature="e#3801#3816#0" expanded="true" />
-            <element signature="e#3801#3816#0" expanded="true" />
-            <element signature="e#4424#4480#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>w4_main:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>w4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.code.gson:gson:2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
