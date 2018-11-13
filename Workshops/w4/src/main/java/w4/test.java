@@ -1,5 +1,7 @@
 package w4;
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +19,7 @@ public class test {
     public static List ml = new ArrayList<String>();
     public static String res;
     public static Movie m;
-    public static List movies = new ArrayList<Movie>();
+    public static List<Movie> movies = new ArrayList<Movie>();
 
     public static void main(String[] args) {
         JFrame home = new JFrame();
@@ -60,6 +62,15 @@ public class test {
         //set up list
         //String[] listString = {"test 1", "test 2", "test 3"};
         //put list into a jlist
+        JButton lHome = new JButton("Home");
+        lHome.setBounds(275,75,75, 30);
+        lHome.setVisible(false);
+        home.add(lHome);
+
+
+        JScrollPane lList = new JScrollPane();
+        lList.setBounds(20,20,180,100);
+        lList.setBackground(Color.BLACK);
 
 
         //------Found Window------
@@ -79,7 +90,7 @@ public class test {
         home.add(fHome);
         home.add(fSearch);
 
-
+        //------Actions------
         hView.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -96,14 +107,26 @@ public class test {
             public void actionPerformed(ActionEvent e) {
                 hView.setVisible(false);
                 hList.setVisible(false);
-                JList listItems = new JList(ml.toArray());
                 //put the new list into the pane
-                JScrollPane lList = new JScrollPane(listItems);
-                lList.setBounds(20,20,180,100);
-                lList.setBackground(Color.BLACK);
-                //lList.setVisible(false);
                 home.add(lList);
-                //lList.setVisible(true);
+                lHome.setVisible(true);
+                JList listItems = new JList(ml.toArray());
+                JViewport vp =new JViewport();
+                vp.setView(listItems);
+                lList.setViewport(vp);
+                lList.setVisible(true);
+
+                listItems.addListSelectionListener(new ListSelectionListener() {
+                    @Override
+                    public void valueChanged(ListSelectionEvent e) {
+                        //System.out.println(listItems.getSelectedIndex()); //test
+                        int i = listItems.getSelectedIndex();
+                        Movie tempMovie = movies.get(i);
+                        //System.out.println(tempMovie.Year); //test
+                        String msg = String.format("<html>Title: %s,<br>Year: %s,<br>Director: %s,<br>Runtime: %s,<br>Genre: %s</html>", tempMovie.Title, tempMovie.Year, tempMovie.Director, tempMovie.Runtime, tempMovie.Genre);
+                        JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
+                    }
+                });
             }
         });
 
@@ -144,9 +167,18 @@ public class test {
         fAdd.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //if(m!=null)
                 ml.add(m.Title);
                 movies.add(m);
+            }
+        }));
+
+        lHome.addActionListener((new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                lHome.setVisible(false);
+                lList.setVisible(false);
+                hView.setVisible(true);
+                hList.setVisible(true);
             }
         }));
 
@@ -164,7 +196,7 @@ public class test {
                         res+=input;
                     }
                     in.close();
-                    System.out.println(res);
+                    //System.out.println(res);
                 } catch (IOException f) {
                     f.printStackTrace();
                 }
@@ -173,7 +205,7 @@ public class test {
                     m= parseMovie(res);
                     String msg = String.format("<html>Title: %s,<br>Year: %s</html>", m.Title, m.Year);
                     JOptionPane.showMessageDialog(null, msg, "Movie Finder", JOptionPane.INFORMATION_MESSAGE);
-                    System.out.println(m.Title);
+                    //System.out.println(m.Title);
                     fAdd.setVisible(true);
                     fHome.setVisible(true);
                     fSearch.setVisible(true);
