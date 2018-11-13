@@ -7,22 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8afc9f8f-15ba-4e13-8c9f-5f4521b759ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/w4_main_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/w4/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/w4/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,8 +34,14 @@
     <session id="1996596069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,29 +67,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+            <state relative-caret-position="36">
+              <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#423#446#0" expanded="true" />
-                <element signature="e#547#562#0" expanded="true" />
-                <element signature="e#2793#2816#0" expanded="true" />
-                <element signature="e#2793#2816#0" expanded="true" />
-                <element signature="e#2834#2857#0" expanded="true" />
-                <element signature="e#2834#2857#0" expanded="true" />
-                <element signature="e#2802#2844#1" expanded="true" />
-                <element signature="e#3095#3127#0" expanded="true" />
-                <element signature="e#3095#3127#0" expanded="true" />
-                <element signature="e#4590#4605#0" expanded="true" />
-                <element signature="e#4590#4605#0" expanded="true" />
-                <element signature="e#4623#4636#0" expanded="true" />
-                <element signature="e#4623#4636#0" expanded="true" />
-                <element signature="e#4931#4981#0" expanded="true" />
-                <element signature="e#4931#4981#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -412,11 +395,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="752" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -426,7 +408,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>Java</id>
           </State>
         </selected-state>
       </profile-state>
@@ -446,50 +428,6 @@
               <item name="w4" type="b2602c69:ProjectViewProjectNode" />
               <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -497,11 +435,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541514000431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541531290205" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -538,72 +476,57 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5567867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#446#0" expanded="true" />
-            <element signature="e#547#562#0" expanded="true" />
-            <element signature="e#2793#2816#0" expanded="true" />
-            <element signature="e#2793#2816#0" expanded="true" />
-            <element signature="e#2834#2857#0" expanded="true" />
-            <element signature="e#2834#2857#0" expanded="true" />
-            <element signature="e#2802#2844#1" expanded="true" />
-            <element signature="e#3095#3127#0" expanded="true" />
-            <element signature="e#3095#3127#0" expanded="true" />
-            <element signature="e#4590#4605#0" expanded="true" />
-            <element signature="e#4590#4605#0" expanded="true" />
-            <element signature="e#4623#4636#0" expanded="true" />
-            <element signature="e#4623#4636#0" expanded="true" />
-            <element signature="e#4931#4981#0" expanded="true" />
-            <element signature="e#4931#4981#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
