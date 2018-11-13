@@ -1,10 +1,10 @@
-package w4;
+package acme.data;
 
 /**
- * TODO add all fields
+ * Class that holds the movie data. This is the data that gets added to lists
  * @author Jack Stevenson
  */
-public class Movie {
+public class MovieData {
     public String Title;
     public String Year;
     public String Rated;
@@ -30,10 +30,5 @@ public class Movie {
     public String Production;
     public String Website;
     public String Response;
-
-    public class Ratings{
-        public String source;
-        public String value;
-    }
 
 }
