@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93a7108-4910-4733-850a-41e885475882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/CardList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/Ratings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/w4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/w4_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/w4_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/w4_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/w4_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/w4/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/w4/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/w4/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/NetUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/NetUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/NetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/NetUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/CardList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/CardList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/DatabaseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/DatabaseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/Movie$Ratings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/SearchResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/SearchResults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie$Ratings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,33 +80,44 @@
     <session id="1996596069">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4791" />
+          <entry key="java" value="5172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4791" />
+          <entry key="JAVA" value="5172" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+            <state relative-caret-position="298">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#724#737#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,72 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="17">
               <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding>
-                <element signature="docComment;method#homePanel#0;class#MovieDBWindow#0" />
-                <element signature="method#homePanel#0;class#MovieDBWindow#0" />
-                <element signature="docComment;method#searchPanel#0;class#MovieDBWindow#0" />
-                <element signature="method#searchPanel#0;class#MovieDBWindow#0" />
-                <element signature="docComment;method#listPanel#0;class#MovieDBWindow#0" />
-                <element signature="method#listPanel#0;class#MovieDBWindow#0" />
-                <element signature="docComment;method#changeVisible#0;class#MovieDBWindow#0" />
-                <element signature="method#changeVisible#0;class#MovieDBWindow#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +148,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Student\.gradle\wrapper\dists\gradle-4.8-bin\divx0s2uj4thofgytb7gf9fsi\gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Yak\.gradle\wrapper\dists\gradle-4.8-bin\divx0s2uj4thofgytb7gf9fsi\gradle-4.8" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -361,7 +323,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6168463116783" />
+        <entry key="$PROJECT_DIR$" value="6161201293221" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3567104576" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -485,7 +447,6 @@
         <option value="$PROJECT_DIR$/src/main/java/acme/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/Ratings.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" />
@@ -495,10 +456,11 @@
         <option value="$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/NetUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -506,41 +468,42 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="w4_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
-              <item name="acme" type="1f31426a:PackageElementNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="w4_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
-              <item name="acme" type="1f31426a:PackageElementNode" />
-              <item name="data" type="1f31426a:PackageElementNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="w4_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="acme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
-              <item name="w4" type="1f31426a:PackageElementNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="w4_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="acme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -591,11 +554,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542140447904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542277365283" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -647,6 +620,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="w4_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="w4_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="w4_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="w4_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -665,7 +696,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -674,7 +705,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37315875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,104 +730,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="190" column="54" selection-start-line="190" selection-start-column="54" selection-end-line="190" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6423#6473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/CardList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/acme/NetUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#searchMovies#0;class#NetUtils#0" />
-            <element signature="method#searchMovies#0;class#NetUtils#0" />
-            <element signature="e#734#753#0" expanded="true" />
-            <element signature="e#952#1006#0" expanded="true" />
-            <element signature="e#1452#1465#0" expanded="true" />
-            <element signature="e#1894#1934#0" expanded="true" />
-            <element signature="e#1920#1939#0" expanded="true" />
-            <element signature="e#2123#2139#0" expanded="true" />
-            <element signature="e#2123#2139#0" expanded="true" />
-            <element signature="e#2454#2467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -804,15 +743,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/CardList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
           <folding>
-            <element signature="docComment;method#homePanel#0;class#MovieDBWindow#0" />
-            <element signature="method#homePanel#0;class#MovieDBWindow#0" />
-            <element signature="docComment;method#searchPanel#0;class#MovieDBWindow#0" />
-            <element signature="method#searchPanel#0;class#MovieDBWindow#0" />
-            <element signature="docComment;method#listPanel#0;class#MovieDBWindow#0" />
-            <element signature="method#listPanel#0;class#MovieDBWindow#0" />
-            <element signature="docComment;method#changeVisible#0;class#MovieDBWindow#0" />
-            <element signature="method#changeVisible#0;class#MovieDBWindow#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#737#0" expanded="true" />
           </folding>
         </state>
       </provider>
