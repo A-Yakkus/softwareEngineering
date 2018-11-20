@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42410eba-134d-4efb-8cda-2816ae40c8d9" name="Default Changelist" comment="" />
+    <list default="true" id="c93a7108-4910-4733-850a-41e885475882" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/FileManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/FileManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/ListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/ListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/acme/ListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/ListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -17,84 +30,84 @@
     </projectState>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="530930435">
+    <session id="2062906150">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="59" />
-          <entry key="java" value="1185" />
+          <entry key="java" value="1948" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="59" />
-          <entry key="JAVA" value="1185" />
+          <entry key="JAVA" value="1948" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1996596069">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4898" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4898" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="1836">
+              <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#276#302#1" expanded="true" />
-                <element signature="e#589#603#1" expanded="true" />
-                <element signature="e#435#505#1" expanded="true" />
-                <element signature="e#843#893#0" expanded="true" />
-                <element signature="e#843#893#0" expanded="true" />
-                <element signature="e#592#615#1" expanded="true" />
-                <element signature="e#677#700#1" expanded="true" />
-                <element signature="e#772#792#0" expanded="true" />
-                <element signature="e#1234#1300#0" expanded="true" />
-                <element signature="e#1234#1300#0" expanded="true" />
-                <element signature="e#1312#1327#0" expanded="true" />
-                <element signature="e#1312#1327#0" expanded="true" />
-                <element signature="e#1312#1327#0" expanded="true" />
-                <element signature="e#1177#1189#1" expanded="true" />
-                <element signature="e#1314#1343#1" expanded="true" />
-                <element signature="e#1423#1435#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/ListPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -104,14 +117,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Yak\.gradle\wrapper\dists\gradle-4.8-bin\divx0s2uj4thofgytb7gf9fsi\gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Student\.gradle\wrapper\dists\gradle-4.8-bin\divx0s2uj4thofgytb7gf9fsi\gradle-4.8" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -286,7 +304,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6161201293221" />
+        <entry key="$PROJECT_DIR$" value="4628175996004" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3567104576" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -398,7 +416,6 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../papergame" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
@@ -406,22 +423,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/w4/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/w4/Launch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/w4/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/DatabaseType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/Ratings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/NetUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/CardList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/ListPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -447,25 +480,68 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w4" type="462c0819:PsiDirectoryNode" />
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
+              <item name="acme" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
+              <item name="acme" type="1f31426a:PackageElementNode" />
+              <item name="data" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
+              <item name="w4" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540301963222" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542726061826" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="acme.data" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="acme.data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="acme" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="acme" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -480,29 +556,20 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Workshop4" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="w4.Launch" />
+    <configuration name="Acme" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="acme.AcmeClient" />
       <module name="w4_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="w4.test" />
+      <module name="w4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -513,91 +580,224 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42410eba-134d-4efb-8cda-2816ae40c8d9" name="Default Changelist" comment="" />
-      <created>1540300305354</created>
+      <changelist id="c93a7108-4910-4733-850a-41e885475882" name="Default Changelist" comment="" />
+      <created>1542115960313</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540300305354</updated>
+      <updated>1542115960313</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15341812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.375682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50074625" side_tool="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49925372" weight="0.22230889" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state>
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state>
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/w4/Launch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state>
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/NetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#276#302#1" expanded="true" />
-            <element signature="e#589#603#1" expanded="true" />
-            <element signature="e#435#505#1" expanded="true" />
-            <element signature="e#843#893#0" expanded="true" />
-            <element signature="e#843#893#0" expanded="true" />
-            <element signature="e#592#615#1" expanded="true" />
-            <element signature="e#677#700#1" expanded="true" />
-            <element signature="e#772#792#0" expanded="true" />
-            <element signature="e#1234#1300#0" expanded="true" />
-            <element signature="e#1234#1300#0" expanded="true" />
-            <element signature="e#1312#1327#0" expanded="true" />
-            <element signature="e#1312#1327#0" expanded="true" />
-            <element signature="e#1312#1327#0" expanded="true" />
-            <element signature="e#1177#1189#1" expanded="true" />
-            <element signature="e#1314#1343#1" expanded="true" />
-            <element signature="e#1423#1435#1" expanded="true" />
+            <element signature="docComment;method#searchMovies#0;class#NetUtils#0" />
+            <element signature="method#searchMovies#0;class#NetUtils#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/CardList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/ListPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>w4_main:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>w4_main|w4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6930171" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.code.gson:gson:2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
