@@ -3,13 +3,17 @@ package acme;
 import acme.data.CardList;
 import acme.data.DatabaseType;
 import acme.data.MovieInfo;
+import sun.misc.JavaLangAccess;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.GridLayout;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.util.List;
 
 /**
@@ -22,17 +26,24 @@ public class MovieDBWindow {
     /**
      * Initialise the main logic of the program
      */
+
+    /**
+     * You shall use the TMDb logo to identify your use of the TMDb APIs.
+     *
+     * You shall place the following notice prominently on your application: "This product uses the TMDb API but is not endorsed or certified by TMDb."
+     */
     public MovieDBWindow(){
         //Set up Main window
         JFrame mainFrm = new JFrame("Acme MovieData Client Home");
         mainFrm.setLocationRelativeTo(null);
-        mainFrm.setSize(400,200);
+        mainFrm.setSize(400,260);
         mainFrm.setResizable(false);
         mainFrm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         cards = new JPanel(new CardLayout());
         cards.add(homePanel(), CardList.HOME.toString());
         cards.add(searchPanel(),CardList.SEARCH.toString());
         cards.add(listPanel(),CardList.VIEW.toString());
+        cards.add(noticePanel(),CardList.NOTICES.toString());
         mainFrm.add(cards);
         //set everything to visible
         mainFrm.setVisible(true);
@@ -44,18 +55,42 @@ public class MovieDBWindow {
      * @return The finalised panel.
      */
     private JPanel homePanel(){
-        JPanel home = new JPanel(new GridLayout(1,2, 30, 0));
+        JPanel home = new JPanel(new GridLayout(3,2, 30, 0));
         JButton search = new JButton("Search");
         JButton viewLists = new JButton("Lists");
-        home.setBorder(BorderFactory.createMatteBorder(50,50,50,50, Color.lightGray));
+        JButton notice = new JButton("View notices");
+        home.setBorder(BorderFactory.createMatteBorder(50,50,15,50, Color.lightGray));
         home.setBackground(Color.lightGray);
         home.add(search);
         home.add(viewLists);
+        home.add(notice);
         search.addActionListener(changeVisible(CardList.SEARCH));
         viewLists.addActionListener(changeVisible(CardList.VIEW));
+        notice.addActionListener(changeVisible(CardList.NOTICES));
         return home;
     }
 
+    private JPanel noticePanel(){
+        JPanel notices = new JPanel(new GridLayout(3,1,0,30));
+        JTextArea notice = new JTextArea("This product uses the TMDb API but is not endorsed or certified by TMDb.");
+        JButton back = new JButton("Back");
+        try {
+            BufferedImage logo = ImageIO.read(new File("images/imdb_logo.png"));
+            JLabel logoLabel = new JLabel(new ImageIcon(logo));
+            notices.add(logoLabel);
+        }
+        catch(Exception e){
+        }
+        back.setSize(50,20);
+        notice.setLineWrap(true);
+        notice.setWrapStyleWord(true);
+        notice.setEditable(false);
+
+        notices.add(notice);
+        notices.add(back);
+        back.addActionListener(changeVisible(CardList.HOME));
+        return notices;
+    }
     /**
      * Configure the Searching panel
      * @return The finalised panel.
