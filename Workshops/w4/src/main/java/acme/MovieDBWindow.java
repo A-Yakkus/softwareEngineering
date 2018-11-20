@@ -13,7 +13,6 @@ import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
-import java.io.Console;
 import java.io.File;
 import java.util.List;
 
@@ -75,9 +74,8 @@ public class MovieDBWindow {
         JPanel notices = new JPanel(new GridLayout(3,1,0,30));
         JTextArea notice = new JTextArea("This product uses the TMDb API but is not endorsed or certified by TMDb.");
         JButton back = new JButton("Back");
-        System.out.println(System.getProperty("user.dir"));
         try {
-            BufferedImage logo = ImageIO.read(new File(System.getProperty("user.dir")+"/src/main/java/acme/images/tmdb_logo.PNG"));
+            BufferedImage logo = ImageIO.read(new File("images/imdb_logo.png"));
             JLabel logoLabel = new JLabel(new ImageIcon(logo));
             notices.add(logoLabel);
         }
@@ -90,6 +88,7 @@ public class MovieDBWindow {
 
         notices.add(notice);
         notices.add(back);
+        notices.setBackground(Color.lightGray);
         back.addActionListener(changeVisible(CardList.HOME));
         return notices;
     }
@@ -104,6 +103,8 @@ public class MovieDBWindow {
         JLabel lbl = new JLabel("Search for");
         lbl.setLabelFor(searchBox);
         JPanel sub = new JPanel(new GridLayout(2,1));
+        sub.setBackground(Color.lightGray);
+        pnl.setBackground(Color.lightGray);
         sub.add(lbl);
         sub.add(searchBox);
         pnl.add(sub);
@@ -133,7 +134,8 @@ public class MovieDBWindow {
      * @return the finalised panel
      */
     private JPanel listPanel(){
-        JPanel pnl = new JPanel();
+        ListPanel pnl = new ListPanel();
+        pnl.home.addActionListener(changeVisible(CardList.HOME));
         return pnl;
     }
 
