@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93a7108-4910-4733-850a-41e885475882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/w4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/w4_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/w4_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/w4_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/w4_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/acme/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/acme/ListPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/acme/data/MovieList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/AcmeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/MovieDBWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/NetUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/NetUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/NetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/NetUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/CardList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/CardList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/DatabaseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/DatabaseType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/Movie$Ratings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/acme/data/SearchResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/acme/data/SearchResults.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Launch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie$Ratings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/w4/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,6 +21,28 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/acme/ListPanel.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="187">
+                    <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -80,53 +81,87 @@
     <session id="1996596069">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5172" />
+          <entry key="java" value="6410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5172" />
+          <entry key="JAVA" value="6410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="614">
+              <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/NetUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-151">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/FileManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#724#737#0" expanded="true" />
+                <element signature="e#516#555#0" expanded="true" />
+                <element signature="e#326#377#0" expanded="true" />
+                <element signature="e#877#896#0" expanded="true" />
+                <element signature="e#1257#1270#0" expanded="true" />
+                <element signature="e#1692#1731#0" expanded="true" />
+                <element signature="e#1917#1968#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -451,20 +486,24 @@
         <option value="$PROJECT_DIR$/src/main/java/acme/data/Ratings.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/CardList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/NetUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/FileManger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/acme/ListPanel.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -472,6 +511,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="4.8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -505,61 +603,10 @@
               <item name="acme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="w4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="w4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -568,7 +615,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542277365283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542724188617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -693,10 +740,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14984101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -705,12 +752,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3585347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6497696" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50074625" side_tool="true" weight="0.3290993" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49925372" weight="0.22230889" />
@@ -732,83 +779,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/w4/Movie.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/w4/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/CardList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/acme/NetUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="-151">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="614">
+          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/acme/AcmeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/SearchResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/Ratings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/DatabaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/CardList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/data/MovieData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="602">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#724#737#0" expanded="true" />
+            <element signature="e#516#555#0" expanded="true" />
+            <element signature="e#326#377#0" expanded="true" />
+            <element signature="e#877#896#0" expanded="true" />
+            <element signature="e#1257#1270#0" expanded="true" />
+            <element signature="e#1692#1731#0" expanded="true" />
+            <element signature="e#1917#1968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/acme/ListPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
