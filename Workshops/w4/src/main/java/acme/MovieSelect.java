@@ -29,8 +29,13 @@ public class MovieSelect extends JDialog {
         for(MovieInfo m : movies){
             res.add(moviePanel(m));
         }
-        this.add(res);
         this.setVisible(true);
+        JPanel JP = new JPanel(new GridLayout(2,1));
+        JComboBox CB = new JComboBox();
+        JP.add(CB);
+        JP.add(res);
+        this.add(JP);
+        
     }
 
     public JPanel moviePanel(MovieInfo movie){
