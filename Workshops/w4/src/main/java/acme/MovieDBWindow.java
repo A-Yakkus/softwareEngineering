@@ -70,12 +70,17 @@ public class MovieDBWindow {
         return home;
     }
 
+    /**
+     * Configure the notice panel
+     * This shows which API's that have been used
+     * @return the finalised panel.
+     */
     private JPanel noticePanel(){
         JPanel notices = new JPanel(new GridLayout(3,1,0,30));
         JTextArea notice = new JTextArea("This product uses the TMDb API but is not endorsed or certified by TMDb.");
         JButton back = new JButton("Back");
         try {
-            BufferedImage logo = ImageIO.read(new File("images/imdb_logo.png"));
+            BufferedImage logo = ImageIO.read(new File(System.getProperty("user.dir")+"/src/main/java/acme/images/tmdb_logo.png"));
             JLabel logoLabel = new JLabel(new ImageIcon(logo));
             notices.add(logoLabel);
         }
@@ -92,13 +97,21 @@ public class MovieDBWindow {
         back.addActionListener(changeVisible(CardList.HOME));
         return notices;
     }
+
     /**
      * Configure the Searching panel
      * @return The finalised panel.
      */
+    String dbOp = "omdb";
+
     private JPanel searchPanel(){
         JPanel pnl = new JPanel(new GridLayout(2,2, 50,50));
-        pnl.add(new JPanel());//Empty to allow for changing of databases
+        JPanel db = new JPanel(new GridLayout(1,2));
+        JButton imdb = new JButton("OMDB");
+        JButton tmdb = new JButton("tMDB");
+        db.add(imdb);
+        db.add(tmdb);
+        pnl.add(db);//Empty to allow for changing of databases
         JTextField searchBox = new JTextField();
         JLabel lbl = new JLabel("Search for");
         lbl.setLabelFor(searchBox);
@@ -113,16 +126,39 @@ public class MovieDBWindow {
         pnl.add(home);
         pnl.add(searchBtn);
         home.addActionListener(changeVisible(CardList.HOME));
+        imdb.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dbOp = "omdb";
+            }
+        });
+        tmdb.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dbOp = "tmdb";
+            }
+        });
         searchBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String searchText = searchBox.getText();
-                List<MovieInfo> movies = NetUtils.searchMovies(searchText, DatabaseType.OMDB);
-                if(movies==null){
-                    JOptionPane.showMessageDialog(null, "No movies found, please try again.", "Error", JOptionPane.ERROR_MESSAGE);
+
+                if(dbOp == "omdb") {
+                    List<MovieInfo> movies = NetUtils.searchMovies(searchText, DatabaseType.OMDB);
+                    if (movies == null) {
+                        JOptionPane.showMessageDialog(null, "No movies found, please try again.", "Error", JOptionPane.ERROR_MESSAGE);
+                    } else {
+                        JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+                    }
                 }
-                else{
-                    JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+
+                else if(dbOp == "tmdb"){
+                    List<MovieInfo> movies = NetUtils.searchMovies(searchText, DatabaseType.TMDB);
+                    if (movies == null) {
+                        JOptionPane.showMessageDialog(null, "No movies found, please try again.", "Error", JOptionPane.ERROR_MESSAGE);
+                    } else {
+                        JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+                    }
                 }
             }
         });
