@@ -22,7 +22,7 @@ import java.util.List;
 public class MovieDBWindow {
 
     private JPanel cards;
-    private JFrame mainFrm = new JFrame("Acme MovieData Client Home");
+    public static JFrame mainFrm = new JFrame("Acme MovieData Client Home");
     /**
      * Initialise the main logic of the program
      */

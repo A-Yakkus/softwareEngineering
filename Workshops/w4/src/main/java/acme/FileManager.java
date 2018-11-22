@@ -5,10 +5,7 @@ import acme.data.MovieInfo;
 import acme.data.MovieList;
 import sun.nio.ch.Net;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FilenameFilter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,6 +66,35 @@ public class FileManager {
             File list = new File(f.getAbsolutePath()+"/"+listName+".json");
             if(!list.exists()){
                 list.createNewFile();
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            //cry
+        }
+    }
+
+    public static void addMovie(String listName, MovieList newList){
+        try{
+            File list = new File(System.getProperty("user.dir")+"/lists/"+listName+".json");
+            if(list.exists()){
+                BufferedReader br = new BufferedReader(new FileReader(list));
+                StringBuilder sb = new StringBuilder();
+                String input="";
+                while((input=br.readLine())!=null){
+                    sb.append(input);
+                }
+                MovieList current = NetUtils.g.fromJson(sb.toString(), MovieList.class);
+                br.close();
+                if(current!=newList){
+                    current=newList;
+                }
+                String nl = NetUtils.g.toJson(current);
+                BufferedWriter bw = new BufferedWriter(new FileWriter(list));
+                bw.write(nl);
+                bw.close();
             }
         }
         catch (Exception e){

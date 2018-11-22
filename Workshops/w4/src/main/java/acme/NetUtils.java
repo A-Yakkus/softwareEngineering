@@ -11,8 +11,10 @@ import com.google.gson.GsonBuilder;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -88,6 +90,11 @@ public class NetUtils {
     }
 
     public static MovieData getMovieData(String movieName, DatabaseType db){
+        try {
+            movieName = URLEncoder.encode(movieName,"UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         String query="";
         StringBuilder sb =new StringBuilder();
         String returned = "";

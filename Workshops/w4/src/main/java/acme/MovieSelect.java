@@ -19,8 +19,7 @@ import java.util.List;
  * */
 public class MovieSelect extends JDialog {
 
-    public MovieList active = new MovieList();
-
+    public MovieList active;
 
     public MovieSelect(JFrame parent, List<MovieInfo> movies){
         super(parent, "Select Movie");
@@ -31,11 +30,11 @@ public class MovieSelect extends JDialog {
         }
         this.setVisible(true);
         JPanel JP = new JPanel(new GridLayout(2,1));
-        JComboBox CB = new JComboBox();
-        JP.add(CB);
+        JComboBox<MovieList> lists = new JComboBox(ListPanel.availableLists.toArray());
+        JP.add(lists);
         JP.add(res);
         this.add(JP);
-        
+        active = (MovieList) lists.getSelectedItem();
     }
 
     public JPanel moviePanel(MovieInfo movie){
@@ -63,12 +62,16 @@ public class MovieSelect extends JDialog {
             public void actionPerformed(ActionEvent e) {
                 try{
                     MovieData data = NetUtils.getMovieData(movie.Title, DatabaseType.OMDB);
-                    active.movies.add(data);
+                    if(active!=null){
+                        active.movies.add(data);
+                    }
+                    FileManager.addMovie(active.listName, active);
                 }catch (Exception ex){
 
                 }
             }
         });
+        ret.add(btn);
         return ret;
     }
 
