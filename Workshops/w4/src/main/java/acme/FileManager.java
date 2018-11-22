@@ -55,16 +55,28 @@ public class FileManager {
         }
     }
 
-    public static void writeFiles(){
-        File f = new File(System.getProperty("user.dir")+"/lists");
-        if(!f.exists()){
-            f.mkdir();
-        }
-        if(f.isFile()){
-            System.out.println(f.getAbsolutePath());
-            throw new RuntimeException("Y U DO THIS TO MEEEEEEE\n This should be a folder");
-        }
 
+    public static void makeList(String listName){
+        try{
+            File f = new File(System.getProperty("user.dir")+"/lists");
+            if(!f.exists()){
+                f.mkdir();
+            }
+            if(f.isFile()){
+                System.out.println(f.getAbsolutePath());
+                throw new RuntimeException("Y U DO THIS TO MEEEEEEE\n This should be a folder");
+            }
+            File list = new File(f.getAbsolutePath()+"/"+listName+".json");
+            if(!list.exists()){
+                list.createNewFile();
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            //cry
+        }
     }
 
 }

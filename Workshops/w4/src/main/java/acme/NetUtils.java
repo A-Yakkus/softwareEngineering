@@ -1,6 +1,7 @@
 package acme;
 
 import acme.data.DatabaseType;
+import acme.data.MovieData;
 import acme.data.MovieInfo;
 import acme.data.SearchResults;
 
@@ -80,6 +81,38 @@ public class NetUtils {
                 }
             }
             return movies;
+        }
+        else{
+            return null;
+        }
+    }
+
+    public static MovieData getMovieData(String movieName, DatabaseType db){
+        String query="";
+        StringBuilder sb =new StringBuilder();
+        String returned = "";
+        switch (db){
+            case OMDB: query= "http://www.omdbapi.com/?apikey=fc545d36&s="+movieName;break;
+            case TMDB: query= "Bad";
+            default:query="Valid DB not used";
+        }
+        if(query.startsWith("http")){
+            try {
+                URL u = new URL(query);
+                URLConnection connection = u.openConnection();
+                BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                String input;
+                while((input=in.readLine())!=null){
+                    sb.append(input);
+                }
+                in.close();
+                returned = sb.toString();
+            }
+            catch (IOException e){
+                e.printStackTrace();
+            }
+            MovieData m = g.fromJson(returned,MovieData.class);
+            return m;
         }
         else{
             return null;

@@ -22,7 +22,7 @@ import java.util.List;
 public class MovieDBWindow {
 
     private JPanel cards;
-
+    private JFrame mainFrm = new JFrame("Acme MovieData Client Home");
     /**
      * Initialise the main logic of the program
      */
@@ -34,7 +34,7 @@ public class MovieDBWindow {
      */
     public MovieDBWindow(){
         //Set up Main window
-        JFrame mainFrm = new JFrame("Acme MovieData Client Home");
+
         mainFrm.setLocationRelativeTo(null);
         mainFrm.setSize(400,260);
         mainFrm.setResizable(false);
@@ -123,6 +123,7 @@ public class MovieDBWindow {
                 }
                 else{
                     JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+                    new MovieSelect(mainFrm, movies);
                 }
             }
         });

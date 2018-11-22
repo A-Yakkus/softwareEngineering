@@ -1,10 +1,15 @@
 package acme;
 
+import acme.data.DatabaseType;
+import acme.data.MovieData;
 import acme.data.MovieInfo;
+import acme.data.MovieList;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
@@ -14,25 +19,51 @@ import java.util.List;
  * */
 public class MovieSelect extends JDialog {
 
+    public MovieList active = new MovieList();
+
 
     public MovieSelect(JFrame parent, List<MovieInfo> movies){
         super(parent, "Select Movie");
         this.setSize(640,480);
-        JPanel res = new JPanel();
-
+        JPanel res = new JPanel(new GridLayout(5,5));
+        for(MovieInfo m : movies){
+            res.add(moviePanel(m));
+        }
+        this.add(res);
+        this.setVisible(true);
     }
 
     public JPanel moviePanel(MovieInfo movie){
         JPanel ret = new JPanel(new GridLayout(4,1));
         JLabel title = new JLabel(movie.Title);
+
         ret.add(title);
         JLabel year= new JLabel(""+movie.Year);
         ret.add(year);
         try {
-            ret.add(new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
-        } catch (IOException e) {
+            if(!movie.Poster.equals("N/A")){
+                ret.add(new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
+            }
+            else{
+                ret.add(new JLabel("poster not found"));
+            }
+
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
+        JButton btn = new JButton("Add");
+        btn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try{
+                    MovieData data = NetUtils.getMovieData(movie.Title, DatabaseType.OMDB);
+                    active.movies.add(data);
+                }catch (Exception ex){
+
+                }
+            }
+        });
         return ret;
     }
 
