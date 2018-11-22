@@ -149,6 +149,7 @@ public class MovieDBWindow {
                         JOptionPane.showMessageDialog(null, "No movies found, please try again.", "Error", JOptionPane.ERROR_MESSAGE);
                     } else {
                         JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+                        new MovieSelect(mainFrm,movies);
                     }
                 }
 
@@ -158,6 +159,7 @@ public class MovieDBWindow {
                         JOptionPane.showMessageDialog(null, "No movies found, please try again.", "Error", JOptionPane.ERROR_MESSAGE);
                     } else {
                         JOptionPane.showMessageDialog(null, String.format("Found %d Movies", movies.size()), "Acme MovieData Client", JOptionPane.INFORMATION_MESSAGE);
+                        new MovieSelect(mainFrm,movies);
                     }
                 }
             }
