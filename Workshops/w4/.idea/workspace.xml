@@ -36,35 +36,15 @@
     </projectState>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2062906150">
+    <session id="-1815596688">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1948" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1948" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1996596069">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
@@ -102,13 +82,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/acme/MovieDBWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4536#4537#0" expanded="true" />
+                <element signature="e#4576#4577#0" expanded="true" />
+                <element signature="e#4726#4727#0" expanded="true" />
+                <element signature="e#4766#4767#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,15 +169,6 @@
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="package-info" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -377,7 +351,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4628175996004" />
+        <entry key="$PROJECT_DIR$" value="6171527967414" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3567104576" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -549,17 +523,21 @@
               <item name="acme" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
-              <item name="acme" type="1f31426a:PackageElementNode" />
-              <item name="data" type="1f31426a:PackageElementNode" />
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="w4" type="58d84e3e:PackageViewProjectNode" />
-              <item name="w4" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="w4_main" type="616d4139:PackageViewModuleNode" />
-              <item name="w4" type="1f31426a:PackageElementNode" />
+              <item name="w4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -624,22 +602,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="acme.data" />
-    </key>
-    <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="acme.data" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="acme" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="acme" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -654,35 +617,42 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Acme" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="AcmeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="acme.AcmeClient" />
+      <module name="w4_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="acme.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="acme.AcmeClient" />
       <module name="w4_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="w4.test" />
-      <module name="w4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AcmeClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c93a7108-4910-4733-850a-41e885475882" name="Default Changelist" comment="" />
-      <created>1542115960313</created>
+      <changelist id="e831e565-7a62-4871-90ed-28184f505143" name="Default Changelist" comment="" />
+      <created>1542882067937</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542115960313</updated>
+      <updated>1542882067937</updated>
     </task>
     <servers />
   </component>
@@ -692,9 +662,9 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,11 +674,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50074625" side_tool="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49925372" weight="0.22230889" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32569557" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.21149674" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -837,7 +807,10 @@
         <state relative-caret-position="294">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4536#4537#0" expanded="true" />
+            <element signature="e#4576#4577#0" expanded="true" />
+            <element signature="e#4726#4727#0" expanded="true" />
+            <element signature="e#4766#4767#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,35 +832,8 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>w4_main:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -899,24 +845,10 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>w4_main|w4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6930171" />
               </list>
             </option>
           </splitter-proportions>
@@ -924,7 +856,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.google.code.gson:gson:2.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
