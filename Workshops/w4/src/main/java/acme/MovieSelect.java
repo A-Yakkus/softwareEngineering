@@ -10,6 +10,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
@@ -29,10 +31,10 @@ public class MovieSelect extends JDialog {
             res.add(moviePanel(m));
         }
         this.setVisible(true);
-        JPanel JP = new JPanel(new GridLayout(2,1));
+        JPanel JP = new JPanel(new BorderLayout());
         JComboBox<String> lists = new JComboBox(ListPanel.availableLists.toArray());
-        JP.add(lists);
-        JP.add(res);
+        JP.add(lists, BorderLayout.PAGE_START);
+        JP.add(res, BorderLayout.CENTER);
         this.add(JP);
         current = (String)lists.getSelectedItem();
     }
@@ -45,13 +47,41 @@ public class MovieSelect extends JDialog {
         JLabel year= new JLabel(""+movie.Year);
         ret.add(year);
         try {
+            JLabel PosterLabel;
             if(!movie.Poster.equals("N/A")){
-                ret.add(new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
+                PosterLabel = (new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
+                PosterLabel.addMouseListener(new MouseListener() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+
+                    }
+
+                    @Override
+                    public void mousePressed(MouseEvent e) {
+
+                    }
+
+                    @Override
+                    public void mouseReleased(MouseEvent e) {
+
+                    }
+
+                    @Override
+                    public void mouseEntered(MouseEvent e) {
+                        //ImageIcon IO = new ImageIcon();
+                        //IO.getImage().
+                    }
+
+                    @Override
+                    public void mouseExited(MouseEvent e) {
+
+                    }
+                });
             }
             else{
-                ret.add(new JLabel("poster not found"));
+                PosterLabel = (new JLabel("poster not found"));
             }
-
+            ret.add(PosterLabel);
 
         } catch (Exception e) {
             e.printStackTrace();
