@@ -12,11 +12,15 @@ import java.util.List;
 
 public class ListPanel extends JPanel {
     public JButton home = new JButton("Home");
-    public static List<MovieList> availableLists = new ArrayList();
+    public static List<String> availableLists = new ArrayList<String>();
 
     public ListPanel(){
         super(new GridLayout(2,1,0,10));
-        JComboBox lists = new JComboBox();
+
+        for(String s : FileManager.movieData.keySet()){
+            availableLists.add(s);
+        }
+        JComboBox lists = new JComboBox(availableLists.toArray());
         //(MovieList[])FileManager.movieData.toArray()
         this.add(lists);
 
@@ -29,12 +33,12 @@ public class ListPanel extends JPanel {
         createList.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String S = JOptionPane.showInputDialog("Enter List Name");
-                MovieList newList = new MovieList();
-                newList.listName = S;
-                availableLists.add(newList);
-                FileManager.makeList(S);
-                lists.addItem(newList);
+                String newListName = JOptionPane.showInputDialog("Enter List Name");
+                FileManager.makeList(newListName);
+                availableLists.add(newListName);
+                lists.addItem(newListName);
+
+
             }
         });
         this.add(createList);

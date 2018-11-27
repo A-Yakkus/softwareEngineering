@@ -7,11 +7,13 @@ import sun.nio.ch.Net;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FileManager {
 
-    public static List<MovieList> movieData = new ArrayList<>();
+    public static Map<String,List<MovieData>> movieData = new HashMap<>();
 
     /**
      * Read all text/json files from path
@@ -33,13 +35,20 @@ public class FileManager {
                 }
             });
             for(File in : files){
+                System.out.println(in.exists());
                 BufferedReader br = new BufferedReader(new FileReader(in));
                 StringBuilder sb = new StringBuilder();
                 String input="";
                 while((input=br.readLine())!=null){
                     sb.append(input);
                 }
-                movieData.add(NetUtils.g.fromJson(sb.toString(), MovieList.class));
+                MovieList movieList = NetUtils.g.fromJson(sb.toString(), MovieList.class);
+                System.out.println(movieList);
+                if(movieList==null){
+                    movieList=new MovieList();
+                }
+                movieData.put(in.getName(),movieList.movies);
+                System.out.println(in.getName());
                 br.close();
             }
 
@@ -73,6 +82,8 @@ public class FileManager {
         }
         finally {
             //cry
+            List<MovieData> empty= new ArrayList<>();
+            movieData.put(listName, empty);
         }
     }
 

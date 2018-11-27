@@ -12,7 +12,9 @@ public class AcmeClient {
      * @param args any program arguements (there are none :P)
      */
     public static void main(String[] args){
+        //FileManager.makeList("Default");
         FileManager.readFiles();
+
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
