@@ -35,6 +35,7 @@ public class FileManager {
                 }
             });
             for(File in : files){
+                System.out.println(in.exists());
                 BufferedReader br = new BufferedReader(new FileReader(in));
                 StringBuilder sb = new StringBuilder();
                 String input="";
@@ -42,9 +43,11 @@ public class FileManager {
                     sb.append(input);
                 }
                 MovieList movieList = NetUtils.g.fromJson(sb.toString(), MovieList.class);
-                movieData.put(
-                        in.getName(),
-                        movieList.movies);
+                System.out.println(movieList);
+                if(movieList==null){
+                    movieList=new MovieList();
+                }
+                movieData.put(in.getName(),movieList.movies);
                 System.out.println(in.getName());
                 br.close();
             }

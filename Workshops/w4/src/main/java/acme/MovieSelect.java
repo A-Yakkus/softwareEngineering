@@ -14,7 +14,9 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * TODO implement as a JDialog that appears when user clicks ok on a successful match to the db(s).
@@ -94,8 +96,10 @@ public class MovieSelect extends JDialog {
                     MovieData data = NetUtils.getMovieData(movie.Title, DatabaseType.OMDB);
                     MovieList ml = new MovieList();
                     ml.listName=current;
+                    ml.movies = FileManager.movieData.get(current);
                     ml.movies.add(data);
                     FileManager.addMovie(current, ml);
+
                 }catch (Exception ex){
 
                 }

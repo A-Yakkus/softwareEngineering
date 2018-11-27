@@ -5,7 +5,7 @@ package acme.data;
  */
 public class MovieInfo {
     public String Title;
-    public int Year;
+    public String Year;
     public String imdbID;
     public String Type;
     public String Poster;
