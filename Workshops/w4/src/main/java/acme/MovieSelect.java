@@ -5,6 +5,7 @@ import acme.data.MovieData;
 import acme.data.MovieInfo;
 import acme.data.MovieList;
 
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;

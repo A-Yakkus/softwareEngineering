@@ -37,7 +37,7 @@ public class NetUtils {
         String returned = "";
         switch (db){
             case OMDB: query= "http://www.omdbapi.com/?apikey=fc545d36&s="+movieName;break;
-            case TMDB: query= "https://api.themoviedb.org/3/search/movie?api_key=f2a4b07dd02e49491ac2e0dbbb5411cf&query="+movieName;break;
+            case TMDB: query= "https://api.themoviedb.org/3/search/multi?api_key=f2a4b07dd02e49491ac2e0dbbb5411cf&query="+movieName;break;
             default:query="Valid DB not used";
         }
         if(query.startsWith("http")){
@@ -51,6 +51,7 @@ public class NetUtils {
                 }
                 in.close();
                 returned = sb.toString();
+                //System.out.println(returned);
             }
             catch (IOException e){
                 e.printStackTrace();
@@ -100,7 +101,7 @@ public class NetUtils {
         String returned = "";
         switch (db){
             case OMDB: query= "http://www.omdbapi.com/?apikey=fc545d36&s="+movieName;break;
-            case TMDB: query= "Bad";
+            case TMDB: query= "https://api.themoviedb.org/3/search/movie?api_key=f2a4b07dd02e49491ac2e0dbbb5411cf&query="+movieName;break;
             default:query="Valid DB not used";
         }
         if(query.startsWith("http")){
