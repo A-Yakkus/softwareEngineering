@@ -25,31 +25,37 @@ import java.util.Map;
 public class MovieSelect extends JDialog {
 
     public String current;
+    JComboBox<String> lists;
 
     public MovieSelect(JFrame parent, List<MovieInfo> movies){
         super(parent, "Select Movie");
         this.setSize(640,480);
-        JPanel res = new JPanel(new GridLayout(5,5));
+        JPanel pnl= new JPanel(new GridLayout(1,0));
+        JScrollPane selector = new JScrollPane(pnl, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         for(MovieInfo m : movies){
-            res.add(moviePanel(m));
+            pnl.add(moviePanel(m));
         }
         this.setVisible(true);
         JPanel JP = new JPanel(new BorderLayout());
-        JComboBox<String> lists = new JComboBox(ListPanel.availableLists.toArray());
+        lists = new JComboBox(ListPanel.availableLists.toArray());
         JP.add(lists, BorderLayout.PAGE_START);
-        JP.add(res, BorderLayout.CENTER);
+        JP.add(selector, BorderLayout.CENTER);
         this.add(JP);
-        current = (String)lists.getSelectedItem();
     }
 
     public JPanel moviePanel(MovieInfo movie){
         JPanel ret = new JPanel(new GridLayout(4,1));
         JLabel title = new JLabel(movie.Title);
-
+        Dimension d = new Dimension(200,30);
+        ret.setMaximumSize(d);
+        ret.setSize(d);
+        ret.setMinimumSize(d);
+        ret.setPreferredSize(d);
         ret.add(title);
         JLabel year= new JLabel(""+movie.Year);
         ret.add(year);
         try {
+            //JDialog diag = new JDialog(this, ModalityType.APPLICATION_MODAL);
             JLabel PosterLabel;
             if(!movie.Poster.equals("N/A")){
                 PosterLabel = (new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
@@ -71,8 +77,10 @@ public class MovieSelect extends JDialog {
 
                     @Override
                     public void mouseEntered(MouseEvent e) {
-                        //ImageIcon IO = new ImageIcon();
-                        //IO.getImage().
+
+                        //diag.add(PosterLabel);
+                        //diag.setLocation(e.getX(),e.getY());
+                        //diag.setVisible(true);
                     }
 
                     @Override
@@ -96,13 +104,13 @@ public class MovieSelect extends JDialog {
                 try{
                     MovieData data = NetUtils.getMovieData(movie.Title, DatabaseType.OMDB);
                     MovieList ml = new MovieList();
-                    ml.listName=current;
-                    ml.movies = FileManager.movieData.get(current);
+                    ml.listName=(String)lists.getSelectedItem();
+                    ml.movies = FileManager.movieData.get(ml.listName);
                     ml.movies.add(data);
-                    FileManager.addMovie(current, ml);
+                    FileManager.addMovie(ml.listName, ml);
 
                 }catch (Exception ex){
-
+                    ex.printStackTrace();
                 }
             }
         });

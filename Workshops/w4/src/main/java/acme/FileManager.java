@@ -44,10 +44,10 @@ public class FileManager {
                 }
                 MovieList movieList = NetUtils.g.fromJson(sb.toString(), MovieList.class);
                 System.out.println(movieList);
-                if(movieList==null){
-                    movieList=new MovieList();
+                if(movieList.movies==null){
+                    movieList.movies=new ArrayList<>();
                 }
-                movieData.put(in.getName(),movieList.movies);
+                movieData.put(in.getName().substring(0, in.getName().length()-5),movieList.movies);
                 System.out.println(in.getName());
                 br.close();
             }
@@ -76,6 +76,9 @@ public class FileManager {
             if(!list.exists()){
                 list.createNewFile();
             }
+            BufferedWriter bw = new BufferedWriter(new FileWriter(list));
+            bw.write("{}");
+            bw.close();
         }
         catch (Exception e){
             e.printStackTrace();
