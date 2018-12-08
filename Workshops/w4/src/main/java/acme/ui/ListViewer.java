@@ -1,4 +1,4 @@
-package acme;
+package acme.ui;
 
 import javax.swing.*;
 

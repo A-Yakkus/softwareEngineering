@@ -1,5 +1,7 @@
-package acme;
+package acme.ui;
 
+import acme.FileManager;
+import acme.NetUtils;
 import acme.data.DatabaseType;
 import acme.data.MovieData;
 import acme.data.MovieInfo;
@@ -13,11 +15,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * TODO implement as a JDialog that appears when user clicks ok on a successful match to the db(s).
@@ -55,39 +54,10 @@ public class MovieSelect extends JDialog {
         JLabel year= new JLabel(""+movie.Year);
         ret.add(year);
         try {
-            //JDialog diag = new JDialog(this, ModalityType.APPLICATION_MODAL);
             JLabel PosterLabel;
             if(!movie.Poster.equals("N/A")){
                 PosterLabel = (new JLabel(new ImageIcon(ImageIO.read(new URL(movie.Poster)))));
-                PosterLabel.addMouseListener(new MouseListener() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
 
-                    }
-
-                    @Override
-                    public void mousePressed(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseReleased(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseEntered(MouseEvent e) {
-
-                        //diag.add(PosterLabel);
-                        //diag.setLocation(e.getX(),e.getY());
-                        //diag.setVisible(true);
-                    }
-
-                    @Override
-                    public void mouseExited(MouseEvent e) {
-
-                    }
-                });
             }
             else{
                 PosterLabel = (new JLabel("poster not found"));

@@ -1,6 +1,8 @@
-package acme;
+package acme.ui;
 
-import acme.data.MovieList;
+import acme.FileManager;
+import acme.MovieDBWindow;
+import acme.data.CardList;
 
 import javax.swing.*;
 
@@ -10,9 +12,22 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListPanel extends JPanel {
+public class ListPanel extends BaseUIPanel {
     public JButton home = new JButton("Home");
     public static List<String> availableLists = new ArrayList<String>();
+
+    private static ListPanel INSTANCE;
+
+    public static ListPanel getInstance() {
+        if(INSTANCE==null){
+            synchronized (ListPanel.class){
+                if(INSTANCE == null){
+                    INSTANCE=new ListPanel();
+                }
+            }
+        }
+        return INSTANCE;
+    }
 
     public ListPanel(){
         super(new GridLayout(2,1,0,10));
@@ -25,6 +40,7 @@ public class ListPanel extends JPanel {
         this.add(lists);
 
         this.add(home);
+        home.addActionListener(MovieDBWindow.changeVisible(CardList.HOME));
         this.setBorder(BorderFactory.createMatteBorder(50,50,50,50, Color.lightGray));
         this.setBackground(Color.lightGray);
 
