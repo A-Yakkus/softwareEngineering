@@ -1,15 +1,18 @@
-plugins {
-    id 'java'
-}
-
-group 'softEng'
-version '1.0'
-
-sourceCompatibility = 1.8
-
 repositories {
     mavenCentral()
 }
+
+
+plugins {
+    id 'java'
+    id 'edu.sc.seis.launch4j' version '2.4.4'
+}
+
+group 'softEng'
+version '1.1'
+
+sourceCompatibility = 1.8
+
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -17,10 +20,37 @@ dependencies {
 }
 
 jar {
+    classifier = 'code'
     manifest {
         attributes 'main-class': 'acme.AcmeClient'
     }
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
+}
+
+task buildProjectJar(type: Jar){
+    manifest.from jar.manifest
+    classifier = 'release'
+    from{
+        configurations.runtimeClasspath.collect {
+            it.isDirectory() ? it :zipTree(it)
+        }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+    with jar
+}
+
+artifacts {
+    archives buildProjectJar
+}
+
+launch4j{
+    outfile = 'Acme-Movie-Client.exe'
+    mainClassName = 'acme.AcmeClient'
+    copyConfigurable = project.tasks.buildProjectJar.outputs.files
+    //jar =
 }
