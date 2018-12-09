@@ -43,16 +43,20 @@ public class MovieSelect extends JDialog {
     }
 
     public JPanel moviePanel(MovieInfo movie){
-        JPanel ret = new JPanel(new GridLayout(4,1));
-        JLabel title = new JLabel(movie.Title);
+        JPanel ret = new JPanel(new BorderLayout());
+
         Dimension d = new Dimension(200,30);
         ret.setMaximumSize(d);
         ret.setSize(d);
         ret.setMinimumSize(d);
         ret.setPreferredSize(d);
-        ret.add(title);
+        JPanel header = new JPanel(new GridLayout(2,1));
+        JLabel title = new JLabel(movie.Title);
         JLabel year= new JLabel(""+movie.Year);
-        ret.add(year);
+        header.add(title);
+
+        header.add(year);
+        ret.add(header, BorderLayout.BEFORE_FIRST_LINE);
         try {
             JLabel PosterLabel;
             if(!movie.Poster.equals("N/A")){
@@ -62,7 +66,7 @@ public class MovieSelect extends JDialog {
             else{
                 PosterLabel = (new JLabel("poster not found"));
             }
-            ret.add(PosterLabel);
+            ret.add(PosterLabel, BorderLayout.CENTER);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -84,7 +88,7 @@ public class MovieSelect extends JDialog {
                 }
             }
         });
-        ret.add(btn);
+        ret.add(btn, BorderLayout.AFTER_LAST_LINE);
         return ret;
     }
 

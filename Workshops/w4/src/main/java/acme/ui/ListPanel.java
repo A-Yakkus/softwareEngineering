@@ -3,6 +3,8 @@ package acme.ui;
 import acme.FileManager;
 import acme.MovieDBWindow;
 import acme.data.CardList;
+import acme.data.MovieData;
+import acme.data.MovieList;
 
 import javax.swing.*;
 
@@ -62,7 +64,9 @@ public class ListPanel extends BaseUIPanel {
         veiwList.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ListViewer(MovieDBWindow.mainFrm);
+                String active = (String)lists.getSelectedItem();
+                MovieList ml = FileManager.readFile(active);
+                new ListViewer(MovieDBWindow.mainFrm, ml);
             }
         });
         this.add(veiwList);

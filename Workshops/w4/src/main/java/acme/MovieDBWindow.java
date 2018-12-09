@@ -3,8 +3,6 @@ package acme;
 import acme.data.CardList;
 import acme.ui.*;
 
-
-
 import javax.swing.*;
 import java.awt.CardLayout;
 import java.awt.event.ActionEvent;
@@ -17,6 +15,7 @@ public class MovieDBWindow {
 
     public static JPanel cards;
     public static JFrame mainFrm = new JFrame("Acme MovieData Client Home");
+
     /**
      * Initialise the main logic of the program
      */

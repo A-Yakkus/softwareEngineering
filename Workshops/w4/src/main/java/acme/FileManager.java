@@ -1,7 +1,6 @@
 package acme;
 
 import acme.data.MovieData;
-import acme.data.MovieInfo;
 import acme.data.MovieList;
 
 import java.io.*;
@@ -116,6 +115,30 @@ public class FileManager {
         finally {
             //cry
         }
+    }
+
+    public static MovieList readFile(String listName){
+        try{
+            File list = new File(System.getProperty("user.dir")+"/lists/"+listName+".json");
+            if(list.exists()){
+                BufferedReader br = new BufferedReader(new FileReader(list));
+                StringBuilder sb = new StringBuilder();
+                String input="";
+                while((input=br.readLine())!=null){
+                    sb.append(input);
+                }
+                br.close();
+                return NetUtils.g.fromJson(sb.toString(), MovieList.class);
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            //cry
+
+        }
+        return null;
     }
 
 }
