@@ -5,7 +5,6 @@ repositories {
 
 plugins {
     id 'java'
-    id 'edu.sc.seis.launch4j' version '2.4.4'
 }
 
 group 'softEng'
@@ -46,11 +45,4 @@ task buildProjectJar(type: Jar){
 
 artifacts {
     archives buildProjectJar
-}
-
-launch4j{
-    outfile = 'Acme-Movie-Client.exe'
-    mainClassName = 'acme.AcmeClient'
-    copyConfigurable = project.tasks.buildProjectJar.outputs.files
-    //jar =
 }
