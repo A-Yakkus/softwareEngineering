@@ -7,7 +7,7 @@ import java.awt.*;
 
 public class HomePanel extends BaseUIPanel {
 
-    public static HomePanel INSTANCE;
+    private static HomePanel INSTANCE;
 
     public static HomePanel getInstance() {
         if(INSTANCE==null){

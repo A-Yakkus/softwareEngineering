@@ -46,6 +46,6 @@ public class MovieData {
     public Boolean video;
     public float vote_average;
     public String original_name;
-    public String name;
+    public String name;//*/
 
 }

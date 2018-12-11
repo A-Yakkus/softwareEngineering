@@ -111,6 +111,18 @@ public class SearchPanel extends BaseUIPanel {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 //This is redundant.
 /*if(dbOp == "omdb") {
                     java.util. = NetUtils.searchMovies(searchText, DatabaseType.OMDB);

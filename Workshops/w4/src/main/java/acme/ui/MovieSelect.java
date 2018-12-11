@@ -23,8 +23,7 @@ import java.util.List;
  * */
 public class MovieSelect extends JDialog {
 
-    public String current;
-    JComboBox<String> lists;
+    private JComboBox<String> lists;
 
     public MovieSelect(JFrame parent, List<MovieInfo> movies){
         super(parent, "Select Movie");
@@ -36,7 +35,7 @@ public class MovieSelect extends JDialog {
         }
         this.setVisible(true);
         JPanel JP = new JPanel(new BorderLayout());
-        lists = new JComboBox(ListPanel.availableLists.toArray());
+        lists = new JComboBox(ListPanel.getInstance().availableLists.toArray());
         JP.add(lists, BorderLayout.PAGE_START);
         JP.add(selector, BorderLayout.CENTER);
         this.add(JP);

@@ -59,7 +59,6 @@ public class FileManager {
         }
     }
 
-
     public static void makeList(String listName){
         try{
             File f = new File(System.getProperty("user.dir")+"/lists");

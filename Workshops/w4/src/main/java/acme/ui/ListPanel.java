@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListPanel extends BaseUIPanel {
-    public JButton home = new JButton("Home");
-    public static List<String> availableLists = new ArrayList<String>();
+    private JButton home = new JButton("Home");
+    protected static List<String> availableLists = new ArrayList<String>();
 
     private static ListPanel INSTANCE;
 
