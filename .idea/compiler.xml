@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Acme-Mov_main" target="1.8" />
+      <module name="Acme-Mov_test" target="1.8" />
+      <module name="Acme-Movie-cl_main" target="1.8" />
+      <module name="Acme-Movie-cl_test" target="1.8" />
+      <module name="w4_main" target="1.8" />
+      <module name="w4_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
