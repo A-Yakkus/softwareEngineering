@@ -1,11 +1,12 @@
-repositories {
-    mavenCentral()
-}
 
 
 plugins {
     id 'java'
 }
+repositories {
+    mavenCentral()
+}
+
 
 group 'softEng'
 version '1.1'

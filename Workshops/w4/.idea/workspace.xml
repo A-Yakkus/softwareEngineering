@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6420c6c5-c48c-409b-b84c-a4d2b75bd7bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/ui/HomePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/ui/HomePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/ui/ListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/ui/ListPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/ui/MovieSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/ui/MovieSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/acme/ui/SearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/acme/ui/SearchPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -81,15 +75,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/acme/ui/HomePanel.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -129,13 +120,13 @@
         <option value="$PROJECT_DIR$/src/main/java/acme/AcmeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/ui/ListViewer.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/acme/ui/SearchPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/ui/ListPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/FileManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/ui/MovieSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/data/MovieData.java" />
         <option value="$PROJECT_DIR$/src/main/java/acme/ui/HomePanel.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -222,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544473553387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544704093809" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -373,7 +364,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18456884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4977307" weight="0.49099836" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3827534" side_tool="true" weight="0.43371522" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,13 +444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/Hello.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/Hello.json" />
     <entry file="file://$PROJECT_DIR$/lists/Default.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -543,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -649,10 +627,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/acme/ui/HomePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
