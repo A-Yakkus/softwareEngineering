@@ -16,4 +16,6 @@ public class MovieDataTMDB {
     public int vote_count;
     public Boolean video;
     public float vote_average;
+    public String original_name;
+    public String name;
 }

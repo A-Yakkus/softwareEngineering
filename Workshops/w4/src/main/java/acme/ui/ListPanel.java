@@ -1,5 +1,9 @@
-package acme;
+package acme.ui;
 
+import acme.FileManager;
+import acme.MovieDBWindow;
+import acme.data.CardList;
+import acme.data.MovieData;
 import acme.data.MovieList;
 
 import javax.swing.*;
@@ -10,9 +14,22 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListPanel extends JPanel {
-    public JButton home = new JButton("Home");
-    public static List<String> availableLists = new ArrayList<String>();
+public class ListPanel extends BaseUIPanel {
+    private JButton home = new JButton("Home");
+    protected static List<String> availableLists = new ArrayList<String>();
+
+    private static ListPanel INSTANCE;
+
+    public static ListPanel getInstance() {
+        if(INSTANCE==null){
+            synchronized (ListPanel.class){
+                if(INSTANCE == null){
+                    INSTANCE=new ListPanel();
+                }
+            }
+        }
+        return INSTANCE;
+    }
 
     public ListPanel(){
         super(new GridLayout(2,1,0,10));
@@ -25,6 +42,7 @@ public class ListPanel extends JPanel {
         this.add(lists);
 
         this.add(home);
+        home.addActionListener(MovieDBWindow.changeVisible(CardList.HOME));
         this.setBorder(BorderFactory.createMatteBorder(50,50,50,50, Color.lightGray));
         this.setBackground(Color.lightGray);
 
@@ -46,7 +64,9 @@ public class ListPanel extends JPanel {
         veiwList.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ListViewer(MovieDBWindow.mainFrm);
+                String active = (String)lists.getSelectedItem();
+                MovieList ml = FileManager.readFile(active);
+                new ListViewer(MovieDBWindow.mainFrm, ml);
             }
         });
         this.add(veiwList);

@@ -1,9 +1,7 @@
 package acme;
 
 import acme.data.MovieData;
-import acme.data.MovieInfo;
 import acme.data.MovieList;
-import sun.nio.ch.Net;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -44,10 +42,10 @@ public class FileManager {
                 }
                 MovieList movieList = NetUtils.g.fromJson(sb.toString(), MovieList.class);
                 System.out.println(movieList);
-                if(movieList==null){
-                    movieList=new MovieList();
+                if(movieList.movies==null){
+                    movieList.movies=new ArrayList<>();
                 }
-                movieData.put(in.getName(),movieList.movies);
+                movieData.put(in.getName().substring(0, in.getName().length()-5),movieList.movies);
                 System.out.println(in.getName());
                 br.close();
             }
@@ -60,7 +58,6 @@ public class FileManager {
             //cry
         }
     }
-
 
     public static void makeList(String listName){
         try{
@@ -76,6 +73,9 @@ public class FileManager {
             if(!list.exists()){
                 list.createNewFile();
             }
+            BufferedWriter bw = new BufferedWriter(new FileWriter(list));
+            bw.write("{}");
+            bw.close();
         }
         catch (Exception e){
             e.printStackTrace();
@@ -114,6 +114,30 @@ public class FileManager {
         finally {
             //cry
         }
+    }
+
+    public static MovieList readFile(String listName){
+        try{
+            File list = new File(System.getProperty("user.dir")+"/lists/"+listName+".json");
+            if(list.exists()){
+                BufferedReader br = new BufferedReader(new FileReader(list));
+                StringBuilder sb = new StringBuilder();
+                String input="";
+                while((input=br.readLine())!=null){
+                    sb.append(input);
+                }
+                br.close();
+                return NetUtils.g.fromJson(sb.toString(), MovieList.class);
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            //cry
+
+        }
+        return null;
     }
 
 }
